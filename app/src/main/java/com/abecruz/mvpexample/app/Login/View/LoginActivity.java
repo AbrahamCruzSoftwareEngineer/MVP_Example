@@ -16,7 +16,7 @@
  *
  */
 
-package com.antonioleiva.mvpexample.app.Login;
+package com.abecruz.mvpexample.app.Login.View;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -25,8 +25,10 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 
-import com.antonioleiva.mvpexample.app.R;
-import com.antonioleiva.mvpexample.app.main.MainActivity;
+import com.abecruz.mvpexample.app.Login.Presenter.LoginPresenter;
+import com.abecruz.mvpexample.app.Login.Presenter.LoginPresenterImpl;
+import com.abecruz.mvpexample.app.R;
+import com.abecruz.mvpexample.app.main.V.MainActivity;
 
 public class LoginActivity extends Activity implements LoginView, View.OnClickListener {
 

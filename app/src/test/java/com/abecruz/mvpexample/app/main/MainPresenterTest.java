@@ -1,4 +1,8 @@
-package com.antonioleiva.mvpexample.app.main;
+package com.abecruz.mvpexample.app.main;
+
+import com.abecruz.mvpexample.app.main.M.FindItemsInteractor;
+import com.abecruz.mvpexample.app.main.P.MainPresenterImpl;
+import com.abecruz.mvpexample.app.main.V.MainView;
 
 import org.junit.Before;
 import org.junit.Test;

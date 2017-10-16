@@ -16,7 +16,7 @@
  *
  */
 
-package com.antonioleiva.mvpexample.app.main;
+package com.abecruz.mvpexample.app.main.V;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -29,7 +29,10 @@ import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.antonioleiva.mvpexample.app.R;
+import com.abecruz.mvpexample.app.R;
+import com.abecruz.mvpexample.app.main.M.FindItemsInteractorImpl;
+import com.abecruz.mvpexample.app.main.P.MainPresenter;
+import com.abecruz.mvpexample.app.main.P.MainPresenterImpl;
 
 import java.util.List;
 

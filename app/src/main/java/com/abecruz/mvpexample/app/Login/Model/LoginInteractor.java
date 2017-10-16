@@ -16,7 +16,7 @@
  *
  */
 
-package com.antonioleiva.mvpexample.app.Login;
+package com.abecruz.mvpexample.app.Login.Model;
 
 public interface LoginInteractor {
 
